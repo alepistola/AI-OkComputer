@@ -21,14 +21,17 @@ La soluzione proposta, in conclusione, è un notebook jupyter comprendente tutte
 ## Risultati
 Le perfomance vengono calcolate attraverso le metriche di **Accuracy** e punteggio **ROC-AUC**. 
 I modelli riportati nello schema fanno riferimento ai migliori 4:
+
 ![Accuracy per i migliori 4 modelli](/readmeAssets/accuracy_4.png "Accuracy per i migliori 4 modelli")
 ![Roc-auc score per i migliori 4 modelli](/readmeAssets/roc_auc_4.png "ROC-AUC per i migliori 4 modelli")
 Di seguito sono riportate invece le matrici di confusione dei 2 modelli migliori (RF, XGBoost):
+
 ![Matrice di confusione per XGBoost](/readmeAssets/confmat_xgboost.png "Matrice di confusione per XGBoost")
 ![Matrice di confusione per RF](/readmeAssets/confmat_rf.png "Matrice di confusione per RF")
 
 ## SMOTE + UnderSampling XGBoost
 Come successiva configurazione progettuale, si `e pensato di utilizzare le tecniche di SMOTE e UnderSampling in concatenazione al fine di ottenere un dataset bilanciato.
+
 ![Matrice di confusione per XGBoost + smote + undersampling](/readmeAssets/xgboost_smote.png "Matrice di confusione per XGBoost + smote + undersampling")
 
 **Accuracy**: 0.91
