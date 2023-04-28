@@ -24,6 +24,7 @@ I modelli riportati nello schema fanno riferimento ai migliori 4:
 
 ![Accuracy per i migliori 4 modelli](/readmeAssets/accuracy_4.png "Accuracy per i migliori 4 modelli")
 ![Roc-auc score per i migliori 4 modelli](/readmeAssets/roc_auc_4.png "ROC-AUC per i migliori 4 modelli")
+
 Di seguito sono riportate invece le matrici di confusione dei 2 modelli migliori (RF, XGBoost):
 
 ![Matrice di confusione per XGBoost](/readmeAssets/confmat_xgboost.png "Matrice di confusione per XGBoost")
